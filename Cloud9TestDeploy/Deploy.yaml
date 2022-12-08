@@ -9,5 +9,4 @@ Resources:
       Handler: Cloud9TestDeploy/crud_item.lambda_handler
       Runtime: python3.8
       Timeout: 180
-      AvailabilityZone: ap-northeast-1
       CodeUri: crud-func

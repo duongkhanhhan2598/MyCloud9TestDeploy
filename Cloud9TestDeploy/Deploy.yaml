@@ -1,0 +1,11 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Description: "Deploy S3, Func, api to Cloud9"
+Resources:
+  CRUDItem:
+    Type: AWS::Serverless::Function
+    Properties:
+    CodeUri: "../CRUDItem/"
+    Handler: 'CRUDItem.lambda_handler'
+    Runtime: python3.8
+    Timeout: 180
+    AvailabilityZone: "ap-northeast-1"

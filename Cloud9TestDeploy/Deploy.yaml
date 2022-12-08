@@ -6,7 +6,7 @@ Resources:
   CRUDItem:
     Type: AWS::Serverless::Function
     Properties:
-      Handler: Cloud9TestDeploy/crud_item.lambda_handler
+      Handler: crud_item.lambda_handler
       Runtime: python3.8
       Timeout: 180
       CodeUri: crud-func

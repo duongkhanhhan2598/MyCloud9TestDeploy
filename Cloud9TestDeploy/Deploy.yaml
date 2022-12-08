@@ -10,4 +10,4 @@ Resources:
       Runtime: python3.8
       Timeout: 180
       AvailabilityZone: ap-northeast-1
-      CodeUri: 
+      CodeUri: crud-func

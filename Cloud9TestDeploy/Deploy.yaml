@@ -1,11 +1,13 @@
 AWSTemplateFormatVersion: "2010-09-09"
-Description: "Deploy S3, Func, api to Cloud9"
+Transform: AWS::Serverless-2016-10-31
+Description: Deploy
+
 Resources:
   CRUDItem:
     Type: AWS::Serverless::Function
     Properties:
-    CodeUri: "../CRUDItem/"
-    Handler: 'CRUDItem.lambda_handler'
-    Runtime: python3.8
-    Timeout: 180
-    AvailabilityZone: "ap-northeast-1"
+      Handler: Cloud9TestDeploy/crud_item.lambda_handler
+      Runtime: python3.8
+      Timeout: 180
+      AvailabilityZone: ap-northeast-1
+      CodeUri: 

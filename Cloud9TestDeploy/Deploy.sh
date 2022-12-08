@@ -1,4 +1,4 @@
-export PROJECT_ID='MySample'
+export PROJECT_ID='MySample1'
 export AWS_ACCOUNT= '096163215653'
 export AWS_REGION=${AWS_REGION:-"ap-northeast-1"}
 
